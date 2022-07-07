@@ -1,0 +1,51 @@
+<!--
+    <input type="url">
+
+    - Espera que o usuário digite uma URL
+    - Irá validar se o valor digitado é uma URL
+
+    # Atributos
+
+    - placeholder
+    - readonly / disable
+    - value
+
+    - required
+
+    - minlength / maxlength
+        * O número  mínimo e/ou máximo de caracteres para 
+        este campo
+
+    - size
+        * O número aceitável de caracteres que esse campo 
+        deverá conter
+
+    - pattern (De preferencia utilizar o title)
+        * Uso de expressão regular para validaro campo
+        * exemplo: o usuário só poderá colocar domínio .com.br
+            * pattern=".*\.com\.br.*"
+
+    - list
+        * O id de uma tag <datalist> que está no mesmo documento
+        * <datalist> irá conter uma lista de valores pré definidos 
+        a fim de sugerir ao usuário, quais valores estão disponíveis
+            * Os valores do <datalist> que não forem  compatíveis com o campo, 
+            não serão apresentados como sugestão
+
+    - spellcheck
+        * Habilitar a verificação ortográfica para este input
+
+    
+-->
+
+<form action="">
+
+    <input 
+        type="url"
+        placeholder="http://example.com"
+        required
+    >
+
+    <button type="submit">Enviar</button>
+
+</form>

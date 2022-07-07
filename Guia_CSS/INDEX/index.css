@@ -1,0 +1,24 @@
+* { margin: 0;}
+
+/*header {
+    border: 6px dashed red;
+    height: 300px;
+    padding: 20px;
+}*/
+
+main {
+    background-color: rgb(63, 30, 16);
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/019/214/567/large/lala-drawings-juan.jpg?1562537132);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed;
+
+    background: rgb(63, 30, 16) 
+    url(https://cdnb.artstation.com/p/assets/images/images/019/214/567/large/lala-drawings-juan.jpg?1562537132) 
+    no-repeat center / 110px border-box content-box fixed;
+
+    background: radial-gradient(green, red, orange);
+}

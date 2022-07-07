@@ -1,0 +1,36 @@
+/* article p:nth-child(2) {
+    font-weight: bold;
+    color: blue;
+}
+
+ul li:nth-child(even) {
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    color: pink;
+}
+
+input:required {
+    background-color: green;
+}
+*/
+
+li {
+    position: relative;
+}
+
+li::before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
+
+p:nth-of-type(2)::first-line {
+    font-weight: bold;
+    color: green;
+}

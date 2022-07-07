@@ -1,0 +1,16 @@
+.lines p {
+    /* -style, -variant, -weight, -stretch, -size, line-height, e -family. */
+    font: italic normal bold normal 3em/1.5 Helvica, Arial, sans-serif;
+}
+
+p {
+    font-style: oblique;
+    font-size: 26px;
+    font-variant: small-caps;
+    font-stretch: condensed;
+    word-spacing: 4px;
+    line-height: 1.6;
+    text-align: left;
+    text-shadow: 1px 1px 1px red, 
+    2px 2px 1px green;
+}

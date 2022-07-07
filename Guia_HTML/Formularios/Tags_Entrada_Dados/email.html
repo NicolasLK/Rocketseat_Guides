@@ -1,0 +1,59 @@
+<!--
+    <input type="email">
+
+    - Espera que o usuário digite um email
+    - Irá validar se o valor digitado é um email
+    
+    # Atributos
+
+    - placeholder
+    - readonly / disable
+    - value
+
+    - required
+
+    - multiple
+        * O campo irá receber 1 ou mais emails, separado por 
+        vírgulas
+
+    - minlength / maxlength
+        * O número  mínimo e/ou máximo de caracteres para 
+        este campo
+    
+    - size
+        * O número aceitável de caracteres que esse campo 
+        deverá conter
+    
+    - pattern
+        * Expressão regular para validar o que está sendo 
+        digitado no campo
+        * exemplo: o usuário só poderá colocar email do domínio 
+        rocketseat.com.br
+        * pattern="[.+@rocketseat\.com\.br]"
+    
+    - list
+        * O id de uma tag <datalist> que está no mesmo documento
+        * <datalist> irá conter uma lista de valores pré definidos 
+        a fim de sugerir ao usuário, quais valores estão disponíveis
+            * Os valores do <datalist> que não forem  compatíveis com o campo, 
+            não serão apresentados como sugestão
+    
+-->
+<!DOCTYPE html>
+
+<datalist id="emaildata">
+    <option>nicolas.loffi@coisa.com</option>
+    <option>nicolas.kaminski@2coisas.com</option>
+    <option>nicolas.lk@coisa.com.br</option>
+    <option>nicolasi@5coisas.com</option>
+    <option>nicolas.loffi@algo.com.br</option>
+</datalist>
+
+<form action="">
+    <input 
+        type="email"
+        size="9"
+        list="emaildata"
+    >
+    <button type="submit">Enviar</button>
+</form>

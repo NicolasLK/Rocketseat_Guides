@@ -1,0 +1,15 @@
+h1:hover, h2:hover {
+    color:red;
+}
+
+.firttitle {
+    color: blue;
+}
+
+#content {
+    color: violet;
+}
+
+[title] {
+    color: green;
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid;
+    padding: 8px;
+}
+
+.col1,.col2 {
+    border: 1px solid;
+    height: 95vh;
+}
+
+.col1 {
+    flex-basis: 25%;
+}
+
+.col2 {
+    flex: 1;
+}

@@ -1,0 +1,16 @@
+{
+    "nome": "Nicolas",
+    "idade": 21,
+    "pais": "Brasil",
+    "animes_favoritos": [
+        "Charlotte",
+        "Code Geass",
+        "Re Zero",
+        "Overlord",
+        "Mushoku Tensei"
+    ],
+    "hobbies": {
+        "semana": "Pesca",
+        "fim_de_semana": "Escutar Música"
+    }
+}

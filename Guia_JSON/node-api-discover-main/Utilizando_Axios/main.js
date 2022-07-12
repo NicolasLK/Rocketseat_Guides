@@ -36,9 +36,23 @@ function getUser(id) {
     }
 }
 
-getUser(1)
+function updateUser(id, updtUser) {
+    try {
+        axios.put(`${url}/${id}`, updtUser)
+        .then(response => console.log(response))
+    } catch (e) {
+        console.log(e)
+    }
+}
 
-getUsers()
+function delUser(id) {
+    try{
+        axios.delete(`${url}/${id}`)
+        .then(response => console.log(response))
+    } catch (e) {
+        console.log(e)
+    }
+}
 
 const newUser = {
     name: "Isadora Kaminski",
@@ -46,4 +60,16 @@ const newUser = {
     city: "Sideropolis"
 }
 
+const updtUser = {
+    name: "Jack Sparrow",
+    avatar: "https://picsum.photos/200/300",
+    city: "Recife"
+}
+
+
+getUsers()
 //addNewUser(newUser)
+getUser(1)
+//updateUser(3, updtUser)
+delUser(7)
+

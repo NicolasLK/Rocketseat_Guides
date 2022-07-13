@@ -1,0 +1,272 @@
+/* Transition
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+ transition-property and duration 
+.box-red {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #FF000B;
+
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.box-red:hover {
+    background-color: #00FFF4;
+    transition-property: background-color, width;
+    transition-duration: 2s;
+    width: 200px;
+}
+*/
+
+/*
+Transition-timing function 
+.line {
+    width: 100%;
+    background-color: blue;
+    height: 25px;
+    margin-bottom: 10px;
+
+    transition: width;
+    transition-duration: 1s;
+}
+
+body:hover .line {
+    width: 20px;
+    background-color: rgb(255, 0, 234);
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+.cube {
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+Transition-delay 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-red {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.box-red {
+    background-color: red;
+    transition: background-color 1s ease 2s;
+}
+
+.box-red:hover {
+    background-color: #ff0;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 4s;
+}
+
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-red,
+.box-green,
+.box-blue,
+.box-yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.box-red {
+    background-color: red;
+    transition: background-color 1s ease 2s;
+}
+
+.box-red:hover {
+    background-color: #ff0;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+}
+
+.box-green {
+    background-color: green;
+    transition: all 1s linear 2s;
+}
+
+.box-green:hover {
+    transition: all 1s cubic-bezier(0.29, 1.01, 1, -0.68);
+    background-color: rgb(169, 14, 193);
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.box-blue {
+    background-color: blue;
+    transition: all 1s linear 1s;
+}
+
+.box-blue:hover {
+    transition: width 2s ease-in-out 0s;
+    width: 380px;
+}
+
+.box-yellow {
+    background-color: yellow;
+    transition: all 1s linear 1s;
+}
+
+.box-yellow:hover {
+    opacity: 0;
+    transition: opacity 1s linear 0s;
+}
+*/
+
+/* Animation
+.ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #f00;
+    position: relative;
+
+    animation-name: example-two;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes example-one {
+    from {
+        background-color: blueviolet;
+    }
+
+    to {
+        background-color: rosybrown;
+    }
+}
+
+
+@keyframes example-two {
+    0% {
+        background-color: #2FE5D6;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: #7B2FE5;
+        left: 400px;
+        top: 0;
+    }
+
+    50% {
+        background-color: #E5672F;
+        left: 400px;
+        top: 400px;
+    }
+
+    75% {
+        background-color: #99E52F;
+        left: 0;
+        top: 400px;
+    }
+
+    100% {
+        background-color: #E52F3E;
+        left: 0;
+        top: 0;
+    }
+}
+
+
+div {
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    position: relative;
+
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+.ease {
+    animation-timing-function: ease;
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+
+.ease-in {
+    animation-timing-function: ease-in;
+}
+
+.ease-out {
+    animation-timing-function: ease-out;
+}
+
+.ease-in-out {
+    animation-timing-function: ease-in-out;
+}
+
+.cube {
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes example {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: calc(100% - 100px);
+    }
+}
+*/
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    border-radius: 100%;
+}
